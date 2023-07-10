@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+/* common font style start  */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* common font style end  */
+
+             /* banner part css code start  */
+.banner {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 0;
+}
+
+.banner_content {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.banner_content h1 {
+    color: #272727;
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner_content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding: 15px 20px;
+    margin-top: 25px;
+}
+
+               /* banner part css code end  */
+
+               /* feature part css start  */
+.feature {
+    margin: 100px 200px;
+}
+
+.feature_content {
+    text-align: center;
+}
+
+.feature_content h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.feature_content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.feature_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.image1 {
+    height: 300px;
+    width: 300px;
+}
+
+.image1 img {
+    height: 100%;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 10px 10px 0;
+}
+
+.image2 {
+    height: 300px;
+    width: 300px;
+}
+
+.image2 img {
+    height: 100%;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 10px 10px 0;
+}
+
+.image3 {
+    height: 300px;
+    width: 300px;
+}
+
+.image3 img {
+    height: 100%;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 10px 10px 0;
+}
+
+.image1,
+.image2,
+.image3,
+h3 {
+    text-decoration: underline;
+    margin: 10px 0;
+}
+
+                /* feature part css end  */
+
+                /* service part css start  */
+
+.service {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 50px;
+}
+
+.service_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+}
+
+.service_image {
+    margin-top: 45px;
+}
+
+.service_image h4 {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+                /* service part css end  */
+
+               /* hot deal part css code start  */
+.hot_deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot_section {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+
+.deal_content h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10;
+}
+
+span {
+    color: #E55473;
+}
+
+.deal_content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+               /* hot deal part css code end  */
+
+              /* instragram part css code start  */
+.instragram_area {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.instra_content {
+    text-align: center;
+    margin: 40px 0 30px;
+}
+
+.instra_content h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instra_content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.instra_gallary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+
+}
+
+.instra_gallary img {
+    height: 300px;
+    width: 250px;
+}
+
+                /* instragram part css code end  */
+
+                /* subscribtion part css start  */
+
+.subscribtion {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+}
+
+.subscribe_content h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.subscribe_content h5 {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.subscribe_input input {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    width: 500px;
+    height: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+                /* subscribtion part css end  */
+
+               /* footer part css code start  */
+
+.footer{
+    background-color: black;
+}
+.footer_content{
+    text-align: center;
+    padding: 100px 0;
+}
+.footer_content h1{
+    color:white;
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer_content p{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 10px 0;
+}
+.footer_content h6{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+               /* footer part css code end  */
