@@ -21,13 +21,13 @@ body {
 }
 
 .banner_content {
-    width: 40%;
+    width: 35%;
     margin: 0 auto;
 }
 
 .banner_content h1 {
     color: #272727;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 800;
     margin-bottom: 20px;
 }
@@ -51,6 +51,64 @@ body {
 }
 
                /* banner part css code end  */
+
+               /* bonus part css code start  */
+.bonus_part{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url("../flower Asset/my-flower/flower1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bonus_content{
+    text-align: center;
+    padding: 100px 0 0;  
+}
+.bonus_content h1{
+    font-size: 55px;
+    font-weight: bold;  
+}
+.bonus_content h5{
+    font-size: 25px;
+    font-style: italic;
+    color: rebeccapurple;
+    font-family: 'Freehand', cursive;
+}
+.bonus_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.image_offer{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top:0;
+    left: 0;
+}
+.image_offer button{
+    position: absolute;
+    left: 20px;
+    top: 150px;
+}
+.btn_bg{
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
+    color: white;
+    background-color:#E55473;
+    font-size: 15px;
+}
+.image_offer img{
+    height: 100%;
+    border-radius: 10px;
+}
+
+               /* bonus part css code end  */
 
                /* feature part css start  */
 .feature {
